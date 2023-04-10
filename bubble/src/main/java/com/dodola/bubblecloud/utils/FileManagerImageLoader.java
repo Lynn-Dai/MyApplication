@@ -1,31 +1,18 @@
 package com.dodola.bubblecloud.utils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
-import java.lang.reflect.Field;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import android.annotation.TargetApi;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
-import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.media.ThumbnailUtils;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Environment;
-import android.provider.MediaStore.Files.FileColumns;
-import android.provider.MediaStore.Images;
-import android.provider.MediaStore.Video;
 import android.text.TextUtils;
 import android.util.SparseArray;
 import android.view.View;
@@ -33,8 +20,6 @@ import android.widget.ImageView;
 
 import com.dodola.bubblecloud.bitmapfun.AsyncTask;
 import com.dodola.bubblecloud.bitmapfun.ImageCache;
-import com.dodola.bubblecloud.bitmapfun.ImageFetcher;
-import com.dodola.bubblecloud.bitmapfun.ImageResizer;
 import com.dodola.bubblecloud.bitmapfun.RecyclingBitmapDrawable;
 
 public class FileManagerImageLoader {

@@ -34,7 +34,7 @@ public class TestActivity extends Activity {
         final ArrayList<String> contacts = createContactList(19);
         final MyAdapter adapter = new MyAdapter(this, contacts);
 
-        mListView = (BubbleCloudView) findViewById(R.id.my_list);
+        mListView = findViewById(R.id.my_list);
         mListView.setAdapter(adapter);
 
         mListView.setOnItemClickListener(new OnItemClickListener() {
