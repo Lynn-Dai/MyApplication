@@ -3,7 +3,7 @@
 The application which implements the apple watch view.
 
 ## Screenshots
-![img_1.png](img_1.png)
+[img_1.png](img_1.png)
 
 ## Thanks
 - [BiitmapFun](https://github.com/kesenhoo/BitmapFun)
